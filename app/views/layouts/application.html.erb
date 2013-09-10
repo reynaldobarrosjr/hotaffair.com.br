@@ -22,15 +22,21 @@
   </head>
 
   <body>
-      <ul class="title-area">
-        <!-- Title Area -->
-        <li class="name">
-          <h1>
-              <% logo = image_tag("logo-hotaffair.png", :alt => "Logo hotaaffair") %>
-              <%= link_to logo, root_path %>
-          </h1>
-        </li>
-      </ul>
+	  <div class="row">
+	      <div class="large-3 columns">
+	        <h1><% logo = image_tag("logo-hotaffair.png", :alt => "Logo hotaaffair") %>
+              <%= link_to logo, root_path %></h1>
+	      </div>
+	      <div class="large-9 columns">
+	        <ul class="button-group right">
+	          <li><a class="button" href="#">Link 1</a></li>
+	          <li><a class="button" href="#">Link 2</a></li>
+	          <li><a class="button" href="#">Link 3</a></li>
+	          <li><a class="button" href="#">Link 4</a></li>
+	        </ul>
+	      </div>
+	    </div>
+     
 
     <%= yield %>
 

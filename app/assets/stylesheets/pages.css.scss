@@ -1,3 +1,47 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.title-area{height:155px;}
+body{background: url("/assets/background-top.png") repeat-x 0 0 #000;color:#fff;};
+a{color:#fcc60e;}
+a:hover{color:red;}
+.top-bar{background-color:transparent;}
+h1, span{color:#FCC60E;}
+.panel h5 {color:#FCC60E;}
+.hot-name{font-size:2em;color:red;}
+div.capty-caption a {
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-shadow: none;
+}
+h3{ color: red;
+    font-size: 1.5em;}
+h2{ color: #FCC60E;
+    font-size: 1.2em;}
+hr{border:none;}
+.panel{background:black;color:#fff;border:none;}
+.panel p{color:#fff;}
+button, .button {
+    background-color: #000000;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    color: #FCC60E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 1.25em;
+    padding: 0.75em 1.5em 0.8125em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: red;
+    color:#000;
+}
