@@ -10,8 +10,9 @@
  *
  *= require_self
  *= require_tree .
- */
+
  *= require foundation_and_overrides
+ */
  
  nav .top-bar{background-color:blue;height:40px;}
  .title-area img{margin-top:10px;margin-bottom:bottom;}
@@ -46,5 +47,5 @@
      list-style: none outside none;
      margin: -4px -20px 0 0;
      position: relative;
-     top: -10px;
+     
  }
