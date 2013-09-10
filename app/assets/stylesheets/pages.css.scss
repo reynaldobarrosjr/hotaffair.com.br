@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .title-area{height:155px;}
-body{background: url("/assets/background-top.png") repeat-x 0 0 #000;color:#fff;};
+body{background: url("/assets/background-top.png") repeat-x fixed #000;color:#fff;};
 a{color:#fcc60e;}
 a:hover{color:red;}
 .top-bar{background-color:transparent;}

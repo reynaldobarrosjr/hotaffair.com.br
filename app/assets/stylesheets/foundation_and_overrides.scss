@@ -20,7 +20,8 @@
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
- body{background: url("/assets/background-top.png") repeat-x 0 0;};
+ body{background: url("/assets/background-top.png")repeat-x fixed 0 0 #000000;};
+ 
 
 
 // We use this to control font-smoothing
