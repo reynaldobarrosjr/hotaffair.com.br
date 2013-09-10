@@ -18,13 +18,42 @@
   	<%= stylesheet_link_tag    "application" %>
   	<%= javascript_include_tag "vendor/custom.modernizr" %>
     <%= csrf_meta_tags %>
+	<link href='http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
+      <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+          <h1>
+              <% logo = image_tag("logo-hotaffair.png", :alt => "Logo hotaaffair") %>
+              <%= link_to logo, root_path %>
+          </h1>
+        </li>
+      </ul>
 
     <%= yield %>
 
     
     <%= javascript_include_tag "application" %>
+    <!-- Footer -->
+   <footer class="row">
+   <div class="large-12 columns">
+   <hr />
+   <div class="row">
+   <div class="large-6 columns">
+   <p>&copy; Copyright no one at all. Go to town.</p>
+   </div>
+   <div class="large-6 columns">
+   <ul class="inline-list right">
+   <li><a href="#">Link 1</a></li>
+   <li><a href="#">Link 2</a></li>
+   <li><a href="#">Link 3</a></li>
+   <li><a href="#">Link 4</a></li>
+   </ul>
+   </div>
+   </div>
+   </div>
+   </footer>
   </body>
 </html>
