@@ -16,7 +16,10 @@ HotaffairComBr::Application.routes.draw do
   # first created -> highest priority.
 
   # Sample of regular route:
-  #   match 'products/:id' => 'catalog#view'
+  #match 'products/:id' => 'catalog#view'
+  match '/politica-de-privacidade'=> 'pages#privacy'
+  match '/termos-de-uso'=> 'pages#termsofuse'
+  
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:

@@ -13,7 +13,7 @@
   	<!-- Set the viewport width to device width for mobile -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+  	<title><%= @title %></title>
 
   	<%= stylesheet_link_tag    "application" %>
   	<%= javascript_include_tag "vendor/custom.modernizr" %>
@@ -52,8 +52,8 @@
    </div>
    <div class="large-6 columns">
    <ul class="inline-list right">
-   <li><a href="#">Política de Privacidade</a></li>
-   <li><a href="#">Termos de uso</a></li>
+   <li><%= link_to "Política de privacidade", "politica-de-privacidade" %></li>
+   <li><%= link_to "Termo de uso", "termos-de-uso" %></li>
    <li><a href="#">Contato</a></li>
    
    </ul>

@@ -1,5 +1,42 @@
-<h1>New user</h1>
+ 
+  <!-- Main Page Content and Sidebar -->
+ 
+  <div class="row">
+ 
+    <!-- Contact Details -->
+    <div class="large-9 columns">
+ 
+      <h3>Anunce Agora!</h3>
+      <p>Para anunciar basta preencher o formulário abaixo e enviaremos para seu email todas as instruções detalhadas para anúnico.</p>
+ 
+      <%= render 'form' %>
+       
+      </div>
+    </div>
+ 
+    <!-- End Contact Details -->
+ 
+ 
+    <!-- Sidebar -->
+ 
 
-<%= render 'form' %>
+    <div class="large-3 columns">
+      <h5>Map</h5>
+      <!-- Clicking this placeholder fires the mapModal Reveal modal -->
+      <p>
+        <a href="" data-reveal-id="mapModal"><img src="http://placehold.it/400x280"></a><br />
+        <a href="" data-reveal-id="mapModal">View Map</a>
+      </p>
+      <p>
+        123 Awesome St.<br />
+        Barsoom, MA 95155
+      </p>
+    </div>
+    <!-- End Sidebar -->
+  </div>
+ 
+  <!-- End Main Content and Sidebar -->
+
+
 
 <%= link_to 'Back', users_path %>

@@ -1,3 +1,8 @@
+<div class="section-container auto" data-section>
+  <section class="section">
+    <h5 class="title"><a href="#panel1">Contact Our Company</a></h5>
+    <div class="content" data-slug="panel1">
+
 <%= form_for(@user) do |f| %>
   <% if @user.errors.any? %>
     <div id="error_explanation">
@@ -12,18 +17,42 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br />
+	<div class="row collapse">  
+	<div class="large-2 columns">
+    <%= f.label :name , class: "inline" %>
+    </div>
+	<div class="large-10 columns">
     <%= f.text_field :name %>
+    </div>
+    </div>
   </div>
   <div class="field">
-    <%= f.label :email %><br />
+  	<div class="row collapse">  
+  	<div class="large-2 columns">
+    <%= f.label :email , class: "inline" %>
+    </div>
+	<div class="large-10 columns">
     <%= f.text_field :email %>
+    </div>
+    </div>
   </div>
   <div class="field">
-    <%= f.label :phone %><br />
+    <div class="row collapse">  
+    <div class="large-2 columns">
+    <%= f.label :phone, class: "inline" %>
+    </div>
+	<div class="large-10 columns">
     <%= f.text_field :phone %>
-  </div>
+  	</div>
+    </div>
+ </div>
   <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
+
+
+
+      
+    </div>
+  </section>
