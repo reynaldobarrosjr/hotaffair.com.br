@@ -1,13 +1,5 @@
 HotaffairComBr::Application.routes.draw do
-  get "pages/home"
 
-  get "pages/termsofuse"
-
-  get "pages/contact"
-
-  get "pages/privacy"
-
-  get "pages/advertising"
 
   resources :users
 
@@ -18,7 +10,16 @@ HotaffairComBr::Application.routes.draw do
   # Sample of regular route:
   #match 'products/:id' => 'catalog#view'
   match '/politica-de-privacidade'=> 'pages#privacy'
+  match '/privacy'=> 'pages#privacy'
+
   match '/termos-de-uso'=> 'pages#termsofuse'
+  match '/termsofuse'=> 'pages#termsofuse'
+
+  match '/contact'=> 'pages#contact'
+  match '/contato'=> 'pages#contact'
+  
+  match '/advertising'=> 'pages#advertising'
+  
   
   # Keep in mind you can assign values other than :controller and :action
 
