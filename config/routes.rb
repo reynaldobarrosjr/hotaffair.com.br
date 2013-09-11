@@ -1,6 +1,8 @@
 HotaffairComBr::Application.routes.draw do
 
 
+  get "pages/about"
+
   resources :users
 
 
@@ -9,6 +11,7 @@ HotaffairComBr::Application.routes.draw do
 
   # Sample of regular route:
   #match 'products/:id' => 'catalog#view'
+  match '/sobre' => 'pages#about'
   match '/politica-de-privacidade'=> 'pages#privacy'
   match '/privacy'=> 'pages#privacy'
 
