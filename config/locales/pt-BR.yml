@@ -132,7 +132,7 @@ pt-BR:
     select:
       prompt: Por favor selecione
     submit:
-      create: Quero saber como anunciar
+      create: Mandar Mensagem
       submit: Salvar %{model}
       update: Atualizar %{model}
   number:
@@ -207,10 +207,10 @@ pt-BR:
     errors:
       <<: *errors
   activerecord:
-    models:
-        contact: 'Contatos' 
     attributes:
-        contact:
+      user:
+        name: "Nome"
+
              
     errors:
       template:<br/>
