@@ -132,7 +132,7 @@ pt-BR:
     select:
       prompt: Por favor selecione
     submit:
-      create: Mandar Mensagem
+      create: Quero saber como anunciar
       submit: Salvar %{model}
       update: Atualizar %{model}
   number:
@@ -210,7 +210,8 @@ pt-BR:
     attributes:
       user:
         name: "Nome"
-
+        phone: "Telefone"
+        email: "Email"
              
     errors:
       template:<br/>
