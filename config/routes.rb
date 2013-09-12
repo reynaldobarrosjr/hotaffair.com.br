@@ -23,6 +23,8 @@ HotaffairComBr::Application.routes.draw do
   
   match '/advertising'=> 'pages#advertising'
   
+  match '/confirmation'=> 'pages#confirmation'
+  
   
   # Keep in mind you can assign values other than :controller and :action
 
