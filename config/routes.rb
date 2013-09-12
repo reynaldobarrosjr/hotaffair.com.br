@@ -14,6 +14,7 @@ HotaffairComBr::Application.routes.draw do
   match '/sobre' => 'pages#about'
   match '/politica-de-privacidade'=> 'pages#privacy'
   match '/privacy'=> 'pages#privacy'
+  match '/como-anunciar' =>'users#new'
 
   match '/termos-de-uso'=> 'pages#termsofuse'
   match '/termsofuse'=> 'pages#termsofuse'

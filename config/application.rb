@@ -31,7 +31,7 @@ module HotaffairComBr
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    # config.i18n.default_locale = :de
+     config.i18n.default_locale = "pt-BR"
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
@@ -41,6 +41,17 @@ module HotaffairComBr
 
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true
+
+    config.action_mailer.delivery_method = :smtp 
+    config.action_mailer.smtp_settings = { 
+      :address              => "smtp.gmail.com", 
+      :port                 => 587, 
+      :domain               => 'gmail.com', 
+      :user_name            => 'admin@hotaffair.com.br', 
+      :password             => 'crysisnemesis', 
+      :authentication       => 'plain', 
+      :enable_starttls_auto => true  
+      } 
 
     # Use SQL instead of Active Record's schema dumper when creating the database.
     # This is necessary if your schema can't be completely dumped by the schema dumper,

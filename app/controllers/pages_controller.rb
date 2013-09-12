@@ -12,7 +12,7 @@ class PagesController < ApplicationController
   end
 
   def privacy
-    @title = 'Hotaffair -  de Privacidade'
+    @title = 'Hotaffair - Politica de Privacidade'
   end
 
   def advertising

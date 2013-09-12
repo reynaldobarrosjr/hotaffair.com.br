@@ -1,12 +1,12 @@
 <div class="section-container auto" data-section>
   <section class="section">
-    <h5 class="title"><a href="#panel1">Contact Our Company</a></h5>
+    
     <div class="content" data-slug="panel1">
 
 <%= form_for(@user) do |f| %>
   <% if @user.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+      <h2>Ops! Corrija os erros abaixo para que possamos mandar as informações para seu email.</h2>
 
       <ul>
       <% @user.errors.full_messages.each do |msg| %>
@@ -47,7 +47,7 @@
     </div>
  </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit :name =>'but' , :class => 'radius button' %>
   </div>
 <% end %>
 
