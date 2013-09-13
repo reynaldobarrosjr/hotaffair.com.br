@@ -9,4 +9,5 @@ class UserMailer < ActionMailer::Base
   def agent_email(user)
     @user = user
     mail(to:'reynaldo@trevobr.com',subject:'Solicitação de Anúncio')
+  end
 end
