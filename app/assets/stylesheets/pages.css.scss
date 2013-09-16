@@ -28,7 +28,7 @@ hr{border:none;}
 .panel{background:transparent;color:#fff;border:none;}
 .panel p{color:#fff;}
 button, .button {
-    background-color: transparent;
+    background-color: #A01103;
     border-color: transparent;
     border-style: transparent;
     border-width: 1px;
@@ -39,14 +39,14 @@ button, .button {
     font-size: 1em;
     font-weight: bold;
     line-height: 1;
-    margin: 0 0 1.25em;
+    float:right;
     padding: 0.75em 1.5em 0.8125em;
     position: relative;
     text-align: center;
     text-decoration: none;
 }
 button:hover, button:focus, .button:hover, .button:focus {
-    background-color: transparent;
+    background-color: #FACA0E;
     color:#000;
 }
 
