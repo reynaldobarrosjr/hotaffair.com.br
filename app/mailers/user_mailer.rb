@@ -8,6 +8,6 @@ class UserMailer < ActionMailer::Base
   end
   def agent_email(user)
     @user = user
-    mail(to:'reynaldo@trevobr.com',subject:'Solicitação de Anúncio')
+    mail(to:'admin@brasex.com.br',subject:'[Hotaffair] Solicitação de Anúncio')
   end
 end
