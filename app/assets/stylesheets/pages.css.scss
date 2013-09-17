@@ -6,7 +6,7 @@
 body{background: url("/assets/background-top.png") repeat-x fixed #000;color:#fff;};
 a{color:#fcc60e;}
 a:hover{color:red;}
-.top-bar{background-color:transparent;}
+.top-bar{background-color:black;}
 h1, span{color:#FCC60E;}
 .panel h5 {color:#FCC60E;}
 .hot-name{font-size:2em;color:red;}
@@ -111,5 +111,19 @@ button:hover, button:focus, .button:hover, .button:focus {
   height: 0;
   padding-bottom: 100%; 
 }  
-div.content{background-color:transparent;}            
+div.content{background-color:transparent;}   
+
+.top-bar .toggle-topbar.menu-icon {
+    margin-top: -16px;
+    padding-left: 40px;
+    right: 15px;
+    
+
+}
+
+.title-area {
+    height: 45px;
+}
+
+      
         

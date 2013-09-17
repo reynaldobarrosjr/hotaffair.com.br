@@ -22,7 +22,8 @@
   </head>
 
   <body>
-	  <div class="row">
+	  <%= render 'mainmenu' %>
+	  <div class="row hide-for-small">
 	      <div class="large-3 columns">
 	        <h1><% logo = image_tag("logo-hotaffair.png", :alt => "Logo hotaaffair") %>
               <%= link_to logo, root_path %></h1>
@@ -34,6 +35,7 @@
 	          
 	          
 	        </ul>
+				
 	      </div>
 	    </div>
      
