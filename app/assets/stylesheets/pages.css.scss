@@ -111,6 +111,20 @@ button:hover, button:focus, .button:hover, .button:focus {
   height: 0;
   padding-bottom: 100%; 
 }  
-div.content{background-color:transparent;}            
+div.content{background-color:transparent;}   
 
-p.rodape{color: #FCC60E;}         
+.top-bar .toggle-topbar.menu-icon {
+    margin-top: -16px;
+    padding-left: 40px;
+    right: 15px;
+    
+
+}
+
+.title-area {
+    height: 45px;
+}
+
+p.rodape{color: #FCC60E;}
+      
+        
